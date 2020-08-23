@@ -14,7 +14,9 @@ def print_logs(study_logs)
       coloring_blocks << "■"
     }
 
+    puts "＊＊＊＊学習記録＊＊＊＊"
     puts "#{subject} #{coloring_blocks}"
+    puts "＊＊＊＊＊＊＊＊＊＊＊＊＊＊"
   }
 end
 
